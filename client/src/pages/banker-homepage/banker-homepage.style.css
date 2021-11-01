@@ -77,10 +77,16 @@
     height: auto;
   }
 
-  .players{
+  .players:hover{
     overflow: auto;
     white-space: nowrap;
   }
+
+  .players {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
   .player-column {
         height: 50px;
         width: 25%;
